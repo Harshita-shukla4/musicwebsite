@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 90px;
+    background-color: rgb(78, 8, 134);
+}
+
+.box1{
+    margin-left: 5%;
+    padding-top: 2%;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.box2 {
+  color: aliceblue;
+  display: flex;
+  justify-content:flex-end;
+  gap: 20px;
+}
+.box2 li{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.box2 li:hover{
+    border-bottom: 2px solid black;
+    background-color:black;
+    border-radius: 80%;
+    transition: 0.2s;
+}
+.hero-section{
+    background-image: url(hero_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container h1{
+    font-size: 94px;
+}
+.container h3{
+    font-size: 34px;
+}
+.container1{
+    background-color: rgb(78, 8, 134);
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+    color: aliceblue;
+}
+.container1 h2{
+    margin-left: 10%;
+    gap: 20px;
+    font-size: x-large;
+}
+.cont2{
+    margin-top: -400px;
+    position: relative;
+    top: 400px
+}
+.btn{
+    background-color: brown;
+    color: white;
+    height: 60px;
+    border-radius: 90%;
+  
+}
+.btn:hover{
+    background-color: black;
+}
+.aboutmusic{
+    padding-top: 500px;
+    color: black;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+h3{
+    font-size: 36px;
+}
+.aboutmusic:hover{
+    text-decoration:underline;
+}
+.btn2{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 30px;
+    
+}
+.btn2:hover{
+    background-color: black;
+}
+.ph1{
+    height: 500px;
+    border: 2px solid white;
+}
+.ph1:hover{
+    border: 2px solid black;
+}
+.aboutmusic{
+
+    font-style: normal;
+    text-align: center;
+}
+.last{
+    height: 500px;
+    background-image: url(video.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 50px;
+}
+.last h3{
+    font-size: 36px;
+    color: aliceblue;
+    text-align: center;
+}
+.last h4{
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+.last h3:hover{
+    text-decoration: underline;
+}
+.card{
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+.ph2{
+    border: 2px solid black;
+    border-radius: 80%;
+
+}
+.cardbox{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.footer{
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+} 
+.footercontainer{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer:hover{
+    background-color: black;
+}
